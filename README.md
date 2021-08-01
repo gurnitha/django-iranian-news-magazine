@@ -81,8 +81,15 @@
         modified:   templates/main/home_page.html
 
 
+#### 2.7 Sagmenting the main content of the home page
 
-
+        modified:   templates/main/home_page.html
+        new file:   templates/main/inc/banner.html
+        new file:   templates/main/inc/latest.html
+        new file:   templates/main/inc/post_aside.html
+        new file:   templates/main/inc/post_business.html
+        new file:   templates/main/inc/post_entertaiment.html
+        new file:   templates/main/inc/post_travel.html
 
 
 
