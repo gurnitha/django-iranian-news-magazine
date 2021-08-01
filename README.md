@@ -10,4 +10,8 @@
 
 #### 1.2 Create django project and app
 
- 
+#### 1.3 Register main app to project
+
+        modified:   README.md
+        modified:   apps/main/apps.py
+        modified:   config/settings.py
