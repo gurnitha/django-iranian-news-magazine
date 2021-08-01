@@ -92,6 +92,15 @@
         new file:   templates/main/inc/post_travel.html
 
 
+### ---------------
+### 3. ABOUT PAGE
+### ---------------
+
+
+#### 3.1 Create about app 'apps/about'
+
+
+
 
 
 
