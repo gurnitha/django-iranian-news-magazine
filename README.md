@@ -127,6 +127,14 @@
         modified:   templates/shared/header_topbar.html
 
 
+### -----------------
+### 4. CONTACT PAGE
+### -----------------
+
+
+#### 4.1 Create contact app
+
+
 
 
 
