@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'apps.main.apps.MainConfig',
     'apps.about.apps.AboutConfig',
     'apps.contact.apps.ContactConfig',
+    'apps.news.apps.NewsConfig',
 
 ]
 
