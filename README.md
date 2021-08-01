@@ -51,8 +51,10 @@
         modified:   templates/main/home_page.html
 
 
+#### 2.4 Loading static files
 
-
+        modified:   README.md
+        modified:   templates/main/home_page.html
 
 
 
