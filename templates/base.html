@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MagNews | {% block title %}{% endblock title %}</title>
+	<!-- head -->
+	{% include "shared/head.html" %}
+	<!-- head -->
+</head>
+<body class="animsition">
+	
+	<!-- Header -->
+	<header>
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+
+			<!-- header_topbar -->
+			{% include "shared/header_topbar.html" %}			
+			<!-- header_topbar -->
+
+			<!-- header_logo_mobile -->
+			{% include "shared/header_logo_mobile.html" %}
+			<!-- header_logo -->
+
+			<!-- header_mobile_menu -->
+			{% include "shared/header_mobile_menu.html" %}
+			<!-- header_mobile_menu -->
+
+			<!-- header_logo_desktop -->
+			{% include "shared/header_logo_desktop.html" %}
+			<!-- header_logo_desktop -->
+
+			<!-- header_desktop_menu -->
+			{% include "shared/header_desktop_menu.html" %}	
+			<!-- header_desktop_menu -->
+		</div>
+	</header>
+
+	{% block content %}
+	{% endblock content %}
+	
+	<!-- Footer -->
+	<footer>
+		<div class="bg2 p-t-40 p-b-25">
+			<div class="container">
+				<div class="row">
+
+					<!-- footer_info -->
+					{% include "shared/footer_info.html" %}
+					<!-- footer_info -->
+
+					<!-- footer_popular_posts -->
+					{% include "shared/footer_popular_posts.html" %}
+					<!-- footer_popular_posts -->
+
+					<!-- footer_categories -->
+					{% include "shared/footer_categories.html" %}
+					<!-- footer_categories -->
+				</div>
+			</div>
+		</div>
+
+		<!-- footer_copyright -->
+
+		<!-- footer_copyright -->
+	</footer>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<span class="fas fa-angle-up"></span>
+		</span>
+	</div>
+
+	<!-- Modal Video 01-->
+	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document" data-dismiss="modal">
+			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
+
+			<div class="wrap-video-mo-01">
+				
+			</div>
+		</div>
+	</div>
+
+<!-- footer_scripts -->
+{% include "shared/footer_scripts.html" %}
+<!-- footer_scripts -->
+
+</body>
+</html>

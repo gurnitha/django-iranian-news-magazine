@@ -74,7 +74,11 @@
         new file:   templates/shared/header_topbar.html
 
 
+#### 2.6 Base template
 
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/main/home_page.html
 
 
 
