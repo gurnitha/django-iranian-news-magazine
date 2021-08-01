@@ -107,7 +107,15 @@
         modified:   config/settings.py
 
 
+#### 3.3 Add About page (Views, Templates, Urls)
 
+        modified:   README.md
+        new file:   apps/about/urls.py
+        modified:   apps/about/views.py
+        modified:   config/urls.py
+        new file:   templates/about/about_page.html
+        deleted:    templates/about_page.html
+        modified:   templates/shared/head.html
 
 
 
