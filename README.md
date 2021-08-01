@@ -40,7 +40,15 @@
         modified:   config/urls.py
 
 
+#### 2.3 Adding static files and html template for the home page
 
+        modified:   README.md
+        ...
+        new file:   static_in_env/vendor/bootstrap/js/tooltip.js
+        new file:   static_in_env/vendor/css-hamburgers/hamburgers.css
+        new file:   static_in_env/vendor/css-hamburgers/hamburgers.min.css
+        new file:   static_in_env/vendor/jquery/jquery-3.2.1.min.js
+        modified:   templates/main/home_page.html
 
 
 
