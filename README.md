@@ -33,6 +33,11 @@
         new file:   templates/main/home_page.html
 
 
+#### 2.2 Creating path for static and media files
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   config/urls.py
 
 
 
