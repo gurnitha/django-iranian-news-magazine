@@ -118,8 +118,13 @@
         modified:   templates/shared/head.html
 
 
+#### 3.4 Linking the pages
 
-
+        modified:   templates/shared/header_desktop_menu.html
+        modified:   templates/shared/header_logo_desktop.html
+        modified:   templates/shared/header_logo_mobile.html
+        modified:   templates/shared/header_mobile_menu.html
+        modified:   templates/shared/header_topbar.html
 
 
 
