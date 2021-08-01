@@ -93,7 +93,7 @@
 
 
 ### ---------------
-### 3. ABOUT PAGE
+### 3. ABOUT APP
 ### ---------------
 
 
@@ -128,7 +128,7 @@
 
 
 ### -----------------
-### 4. CONTACT PAGE
+### 4. CONTACT APP
 ### -----------------
 
 
@@ -156,7 +156,12 @@
         new file:   templates/shared/sidebar_popular_posts.html
 
 
+### -------------
+### 5. NEWS APP
+### -------------
 
+
+#### 5.1 Create a new app 'apps/news'
 
 
 
