@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # First party apps
     'apps.main.apps.MainConfig',
+    'apps.about.apps.AboutConfig',
 
 ]
 

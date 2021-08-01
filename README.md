@@ -100,7 +100,11 @@
 #### 3.1 Create about app 'apps/about'
 
 
+#### 3.2 Register the about app to project
 
+        modified:   README.md
+        modified:   apps/about/apps.py
+        modified:   config/settings.py
 
 
 
