@@ -8,3 +8,6 @@
 
 #### 1.1 Creata venv and install django v3.2
 
+#### 1.2 Create django project and app
+
+ 
