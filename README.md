@@ -57,6 +57,22 @@
         modified:   templates/main/home_page.html
 
 
+#### 2.5 Sagmenting the home page
+
+        modified:   README.md
+        modified:   templates/main/home_page.html
+        new file:   templates/shared/footer_categories.html
+        new file:   templates/shared/footer_copyright.html
+        new file:   templates/shared/footer_info.html
+        new file:   templates/shared/footer_popular_posts.html
+        new file:   templates/shared/footer_scripts.html
+        new file:   templates/shared/head.html
+        new file:   templates/shared/header_desktop_menu.html
+        new file:   templates/shared/header_logo_desktop.html
+        new file:   templates/shared/header_logo_mobile.html
+        new file:   templates/shared/header_mobile_menu.html
+        new file:   templates/shared/header_topbar.html
+
 
 
 
