@@ -135,6 +135,12 @@
 #### 4.1 Create contact app
 
 
+#### 4.2 Register the app to project
+
+        modified:   README.md
+        modified:   apps/contact/apps.py
+        modified:   config/settings.py
+
 
 
 
