@@ -142,9 +142,18 @@
         modified:   config/settings.py
 
 
+#### 4.3 Create contact_page and link to menu
 
-
-
+        modified:   README.md
+        new file:   apps/contact/urls.py
+        modified:   apps/contact/views.py
+        modified:   config/urls.py
+        modified:   templates/about/about_page.html
+        new file:   templates/contact/contact_page.html
+        modified:   templates/shared/header_desktop_menu.html
+        modified:   templates/shared/header_mobile_menu.html
+        modified:   templates/shared/header_topbar.html
+        new file:   templates/shared/sidebar_popular_posts.html
 
 
 
