@@ -270,7 +270,11 @@
         modified:   templates/shared/header_topbar.html
 
 
+#### 6.11 Adding news_list template
 
+        modified:   README.md
+        modified:   templates/dashboard/base.html
+        new file:   templates/dashboard/news_list.html
 
 
 
