@@ -4,10 +4,11 @@
 from django.urls import path
 
 # Django locals
-from apps.dashboard.views import home_page_dashboard
+from apps.dashboard.views import dashboard, news_list
 
 app_name = 'dashboard'
 
 urlpatterns = [
-    path('', home_page_dashboard, name='home_page_dashboard'),
+    path('', dashboard, name='dashboard'),
+    path('news_list/', news_list, name='news_list'),
 ]

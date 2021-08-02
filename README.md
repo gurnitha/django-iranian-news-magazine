@@ -251,6 +251,23 @@
         new file:   templates/dashboard/shared/head.html
 
 
+#### 6.10 Re-create dashboard template with base template
+
+        modified:   README.md
+        modified:   apps/dashboard/urls.py
+        modified:   apps/dashboard/views.py
+        new file:   templates/dashboard/base.html
+        deleted:    templates/dashboard/base_dashboard.html
+        new file:   templates/dashboard/dashboard.html
+        deleted:    templates/dashboard/home_page_dashboard.html
+        deleted:    templates/dashboard/shared/dashboard_content.html
+        deleted:    templates/dashboard/shared/dashboard_footer.html
+        deleted:    templates/dashboard/shared/dashboard_header.html
+        modified:   templates/dashboard/shared/head.html
+        deleted:    templates/dashboard/shared/scripts.html
+        deleted:    templates/dashboard/shared/sidebar.html
+        deleted:    templates/dashboard/shared/user_settings.html
+        modified:   templates/shared/header_topbar.html
 
 
 
