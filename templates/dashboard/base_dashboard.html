@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if IE 9]>         
+<html class="no-js lt-ie10" lang="en">
+   <![endif]-->
+   <!--[if gt IE 9]><!--> 
+   <html class="no-js" lang="en">
+      <!--<![endif]-->
+      <head>
+         <!-- header -->
+         <title>Admin | {% block title %}{% endblock title %}</title>
+         {% include "./shared/head.html" %}
+         <!-- header -->
+      </head>
+      <body>
+
+         <div id="page-wrapper">
+            <!-- preloader -->
+            <div class="preloader themed-background">
+               <h1 class="push-top-bottom text-light text-center"><strong>Admin</strong>Panel</h1>
+               <div class="inner">
+                  <h3 class="text-light visible-lt-ie10"><strong>Loading..</strong></h3>
+                  <div class="preloader-spinner hidden-lt-ie10"></div>
+               </div>
+            </div>
+            <!-- preloader -->
+
+            <div id="page-container" class="sidebar-partial sidebar-visible-lg sidebar-no-animations">
+
+               <!-- sidebar -->
+               {% include "./shared/sidebar.html" %}
+               <!-- sidebar -->
+
+               <!-- Main Container -->
+               <div id="main-container">
+                  {% block content %}
+                  {% endblock content %}
+               </div>
+               <!-- END Main Container -->
+            </div>
+            <!-- END Page Container -->
+         </div>
+         <!-- END Page Wrapper -->
+         <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
+         <a href="#" id="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+         <!-- user_settings -->
+         <!-- User Settings, modal which opens from Settings link 
+            (found in top right user menu) and the Cog link (found in sidebar user info) -->         
+         {% include "./shared/user_settings.html" %}   
+         <!-- user_settings -->
+
+         <!-- shared_scripts -->
+         {% include "./shared/scripts.html" %}
+         <!-- shared_scripts -->
+      </body>
+   </html>

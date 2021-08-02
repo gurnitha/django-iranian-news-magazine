@@ -244,7 +244,11 @@
         new file:   templates/dashboard/shared/user_settings.html
 
 
+#### 6.9 Create base_dashboard template
 
+        new file:   templates/dashboard/base_dashboard.html
+        modified:   templates/dashboard/home_page_dashboard.html
+        new file:   templates/dashboard/shared/head.html
 
 
 
