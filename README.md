@@ -214,7 +214,10 @@
         modified:   templates/dashboard/home_page_dashboard.html
 
 
+#### 6.5 Customize Admin Panel Part 1
 
+        modified:   README.md
+        modified:   templates/dashboard/home_page_dashboard.html
 
 
 
