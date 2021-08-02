@@ -203,6 +203,15 @@
         modified:   templates/shared/header_topbar.html
 
 
+#### 6.4 Add html template to home_page_dashboard, static files and load static
+
+        modified:   README.md
+        ...
+        new file:   static_in_env/dashboard/less/themes/night.less
+        new file:   static_in_env/dashboard/less/themes/spring.less
+        new file:   static_in_env/dashboard/less/themes/waterlily.less
+        new file:   static_in_env/dashboard/less/variables.less
+        modified:   templates/dashboard/home_page_dashboard.html
 
 
 
