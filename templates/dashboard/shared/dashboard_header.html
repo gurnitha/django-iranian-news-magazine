@@ -1,0 +1,17 @@
+{% load static %}
+<header class="navbar navbar-default">
+	<ul class="nav navbar-nav-custom">
+		<li>
+		   <a href="javascript:void(0)" onclick="App.sidebar('toggle-sidebar');this.blur();">
+		   <i class="fa fa-bars fa-fw"></i>
+		   </a>
+		</li>
+	</ul>
+	<!-- Search Form -->
+	<form action="page_ready_search_results.html" method="post" class="navbar-form-custom">
+		<div class="form-group">
+		   <input type="text" id="top-search" name="top-search" class="form-control" placeholder="Search..">
+		</div>
+	</form>
+	<!-- Search Form -->
+</header>

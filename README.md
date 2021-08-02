@@ -232,7 +232,16 @@
         modified:   templates/dashboard/home_page_dashboard.html
 
 
+#### 6.8 Customize Admin Panel Part 4 - Sagmenting home_page_dashboard
 
+        modified:   README.md
+        modified:   templates/dashboard/home_page_dashboard.html
+        new file:   templates/dashboard/shared/dashboard_content.html
+        new file:   templates/dashboard/shared/dashboard_footer.html
+        new file:   templates/dashboard/shared/dashboard_header.html
+        new file:   templates/dashboard/shared/scripts.html
+        new file:   templates/dashboard/shared/sidebar.html
+        new file:   templates/dashboard/shared/user_settings.html
 
 
 
