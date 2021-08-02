@@ -10,5 +10,5 @@ app_name = 'dashboard'
 
 urlpatterns = [
     path('', dashboard, name='dashboard'),
-    path('news_list/', news_list, name='news_list'),
+    path('news/list', news_list, name='news_list'),
 ]

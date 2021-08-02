@@ -290,9 +290,11 @@
         new file:   templates/dashboard/shared/sidebar.html
 
 
+#### 6.13 Cusomizing news_list page
 
-
-
+        modified:   README.md
+        modified:   apps/dashboard/urls.py
+        modified:   templates/dashboard/news_list.html
 
 
 
