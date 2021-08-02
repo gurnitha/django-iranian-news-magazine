@@ -1,0 +1,12 @@
+{% load static %}
+
+
+<!-- jQuery, Bootstrap.js, jQuery plugins and Custom JS code -->
+<script src="{% static 'dashboard/js/vendor/jquery.min.js' %}"></script>
+<script src="{% static 'dashboard/js/vendor/bootstrap.min.js' %}"></script>
+<script src="{% static 'dashboard/js/plugins.js' %}"></script>
+<script src="{% static 'dashboard/js/app.js' %}"></script>
+
+<!-- Load and execute javascript code used only in this page -->
+<script src="{% static 'dashboard/js/pages/tablesDatatables.js' %}"></script>
+<script>$(function(){ TablesDatatables.init(); });</script>

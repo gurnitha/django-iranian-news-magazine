@@ -277,8 +277,17 @@
         new file:   templates/dashboard/news_list.html
 
 
+#### 6.12 Modified templates using template inheritance 
 
-
+        modified:   README.md
+        modified:   templates/dashboard/base.html
+        modified:   templates/dashboard/dashboard.html
+        modified:   templates/dashboard/news_list.html
+        new file:   templates/dashboard/shared/footer.html
+        new file:   templates/dashboard/shared/header.html
+        new file:   templates/dashboard/shared/scripts.html
+        new file:   templates/dashboard/shared/scripts_table.html
+        new file:   templates/dashboard/shared/sidebar.html
 
 
 
