@@ -3,6 +3,8 @@
 # Django modules
 from django.shortcuts import render
 
+# Django locals
+from apps.news.models import News
 # Create your views here.
 
 # Homepage view
@@ -10,4 +12,9 @@ def dashboard(request):
 	return render(request, 'dashboard/dashboard.html')
 
 def news_list(request):
-	return render(request, 'dashboard/news_list.html')
+	news_lists = News.objects.all()
+	print(news_lists)
+	context = {
+		'news_lists':news_lists
+	}
+	return render(request, 'dashboard/news_list.html', context)

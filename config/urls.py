@@ -22,7 +22,7 @@ urlpatterns = [
     # Admin app
     path('dashboard/', include('apps.dashboard.urls', namespace='dashboard')),
 
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
 ]
 
 if settings.DEBUG:

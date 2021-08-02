@@ -37,7 +37,7 @@
                 <table id="example-datatable" class="table table-vcenter table-condensed table-bordered">
                     <thead>
                         <tr>
-                            <th class="text-center">ID</th>
+                            <th class="text-center">{{news_list.pk}}</th>
                             <th class="text-center">Image<i class="gi gi-user"></i></th>
                             <th>Title</th>
                             <th>Date</th>
@@ -48,14 +48,15 @@
                         </tr>
                     </thead>
                     <tbody>
+                        {% for news_list in news_lists %}
                         <tr>
                             <td class="text-center">1</td>
                             <td class="text-center"><img src="{% static 'dashboard/img/placeholders/avatars/avatar12.jpg' %}" alt="avatar" class="img-circle"></td>
-                            <td>2021/08/17</td>
-                            <td>Title</td>
-                            <td>Sport</td>
-                            <td>Admin</td>
-                            <td>2</td>
+                            <td>{{news_list.date}}</td>
+                            <td>{{news_list.title}}</td>
+                            <td>--</td>
+                            <td>{{news_list.writer}}</td>
+                            <td>--</td>
                             <td class="text-center">
                                 <div class="btn-group">
                                     <a href="javascript:void(0)" data-toggle="tooltip" 
@@ -67,6 +68,7 @@
                                 </div>
                             </td>
                         </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>

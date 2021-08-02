@@ -297,9 +297,24 @@
         modified:   templates/dashboard/news_list.html
 
 
+### -------------------------------------
+### 7. MODEL, VIEWS, TEMPLATES AND URLS
+### -------------------------------------
 
 
+#### 7.1 Create News model and display data to home page and dashboard/news_list
 
+
+        modified:   README.md
+        modified:   apps/dashboard/views.py
+        modified:   apps/main/views.py
+        modified:   apps/news/admin.py
+        new file:   apps/news/migrations/0001_initial.py
+        modified:   apps/news/models.py
+        modified:   config/urls.py
+        modified:   db.sqlite3
+        modified:   templates/dashboard/news_list.html
+        modified:   templates/main/inc/latest.html
 
 
 
