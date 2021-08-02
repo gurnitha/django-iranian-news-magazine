@@ -220,7 +220,10 @@
         modified:   templates/dashboard/home_page_dashboard.html
 
 
+#### 6.6 Customize Admin Panel Part 2
 
+        modified:   README.md
+        modified:   templates/dashboard/home_page_dashboard.html
 
 
 
