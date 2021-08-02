@@ -180,8 +180,11 @@
 #### 6.1 Create a new app 'apps/admin'
 
 
+#### 6.2 Register news app to project
 
-
+        modified:   README.md
+        modified:   apps/admin/apps.py
+        modified:   config/settings.py
 
 
 
