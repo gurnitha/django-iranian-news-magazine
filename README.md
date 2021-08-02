@@ -187,6 +187,22 @@
         modified:   config/settings.py
 
 
+#### 6.3 Re-naming the app from admin to dashboard, create admin home_page_admin (VT Urls) and menu
+
+        modified:   README.md
+        deleted:    apps/admin/views.py
+        renamed:    apps/admin/admin.py -> apps/dashboard/admin.py
+        renamed:    apps/admin/apps.py -> apps/dashboard/apps.py
+        renamed:    apps/admin/models.py -> apps/dashboard/models.py
+        renamed:    apps/admin/tests.py -> apps/dashboard/tests.py
+        new file:   apps/dashboard/urls.py
+        new file:   apps/dashboard/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/dashboard/home_page_dashboard.html
+        modified:   templates/shared/header_topbar.html
+
+
 
 
 

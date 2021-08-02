@@ -9,10 +9,20 @@ from django.urls import path, include
 
 
 urlpatterns = [
+    
+    # Main app
     path('', include('apps.main.urls', namespace='main')),
+    
+    # About app
     path('about/', include('apps.about.urls', namespace='about')),
+    
+    # Contact app
     path('contact/', include('apps.contact.urls', namespace='contact')),
-    path('admin/', admin.site.urls),
+    
+    # Admin app
+    path('dashboard/', include('apps.dashboard.urls', namespace='dashboard')),
+
+    # path('admin/', admin.site.urls),
 ]
 
 if settings.DEBUG:

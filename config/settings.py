@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'apps.about.apps.AboutConfig',
     'apps.contact.apps.ContactConfig',
     'apps.news.apps.NewsConfig',
-    'apps.admin.apps.AdminConfig',
+    'apps.dashboard.apps.DashboardConfig',
 
 ]
 
