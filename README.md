@@ -317,8 +317,17 @@
         modified:   templates/main/inc/latest.html
 
 
+#### 7.2 Load news list to dashboard 
 
-
+        modified:   apps/dashboard/__pycache__/urls.cpython-39.pyc
+        modified:   apps/dashboard/__pycache__/views.cpython-39.pyc
+        modified:   apps/dashboard/urls.py
+        modified:   apps/dashboard/views.py
+        modified:   config/__pycache__/urls.cpython-39.pyc
+        modified:   config/urls.py
+        new file:   templates/dashboard/news_add.html
+        modified:   templates/dashboard/news_list.html
+        modified:   templates/dashboard/shared/sidebar.html
 
 
 

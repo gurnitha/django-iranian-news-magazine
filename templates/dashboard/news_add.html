@@ -1,0 +1,53 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}{{block.super}} Home{% endblock title %}
+
+{% block content %}>
+
+<!-- Main Container -->
+<div id="main-container">
+
+	<!-- Header -->    
+	{% include "./shared/header.html" %}
+    <!-- END Header -->
+
+    <!-- Page content -->
+    <div id="page-content">
+        <!-- Datatables Header -->
+        <div class="content-header">
+            <div class="header-section">
+                <h1>
+                    <i class="fa fa-table"></i>Add news<br><small>You can Add, Edit and Delete your data!</small>
+                </h1>
+            </div>
+        </div>
+        <ul class="breadcrumb breadcrumb-top">
+            <li>News</li>
+            <li><a href="/panel/news/add">Add</a></li>
+        </ul>
+        <!-- END Datatables Header -->
+
+        <!-- Datatables Content -->
+        <div class="block full">
+            <div class="block-title">
+                <h2><strong>Add</strong> News</h2>
+            </div>
+
+            <div class="table-responsive">
+                
+            </div>
+        </div>
+        <!-- END Datatables Content -->
+    </div>
+    <!-- END Page Content -->
+
+    <!-- Footer -->
+    {% include "./shared/footer.html" %}
+    <!-- END Footer -->
+</div>
+
+{% endblock content %}
+
+{% block scripts_table %}
+	{% include "./shared/scripts_table.html" %}
+{% endblock scripts_table %}

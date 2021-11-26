@@ -20,7 +20,7 @@ urlpatterns = [
     path('contact/', include('apps.contact.urls', namespace='contact')),
     
     # Admin app
-    path('dashboard/', include('apps.dashboard.urls', namespace='dashboard')),
+    path('panel/', include('apps.dashboard.urls', namespace='dashboard')),
 
     path('admin/', admin.site.urls),
 ]
